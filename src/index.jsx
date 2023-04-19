@@ -7,6 +7,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  //O strict mode renderiza mais de uma vez a nível de desenvolvimento
   <React.StrictMode>
     <App />
   </React.StrictMode>
