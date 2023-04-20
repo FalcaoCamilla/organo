@@ -20,6 +20,10 @@ const Formulario = (props) => {
             imagem,
             time
         })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
         //evitar o comportamento padrão
     }
 
